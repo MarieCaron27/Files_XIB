@@ -31,8 +31,15 @@ public class AppDelegate : NSApplicationDelegate
                 alert.RunModal ();
             }
         }
+        
+        [Export("applicationPreferences:")]
+        void ShowPreferences (NSObject sender)
+        {
+            var preferences = new PreferencesWindow ();
+            preferences.View.Window.MakeKeyAndOrderFront (this);
+        }
     }
-
+    
     public override void WillTerminate (NSNotification notification)
     {
         // Insert code here to tear down your application

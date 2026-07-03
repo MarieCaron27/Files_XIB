@@ -30,11 +30,15 @@
 		</data>
 		<key>Resources/MainMenu.nib</key>
 		<data>
-		d0Hl8ptSVmQMhZvJjvVQQYpcH2I=
+		HdLltGvgPiBGE01vnUFFSwpdYfM=
 		</data>
 		<key>Resources/MainWindow.nib</key>
 		<data>
 		5hlngMhXpvfdOjzY37c4Mv+x+/M=
+		</data>
+		<key>Resources/PreferencesWindow.nib</key>
+		<data>
+		m9caQkNBV7K4AJUZj+pY3WNbPhc=
 		</data>
 		<key>Resources/SubViewTable.nib</key>
 		<data>
@@ -47,6 +51,18 @@
 		<key>Resources/test3.jpeg</key>
 		<data>
 		qTIDj+3Uftsi77dNvJL2hbnh8h8=
+		</data>
+		<key>Resources/test4.jpeg</key>
+		<data>
+		OOfCr/DqTIx1oLAbbc6devhu078=
+		</data>
+		<key>Resources/test5.jpeg</key>
+		<data>
+		Gpx8h1jQqzGNge4ksDV+Yn5WMTk=
+		</data>
+		<key>Resources/trash.png</key>
+		<data>
+		OjeJqvZpbBHdIEpXC+CGtVZuYBI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1259,14 +1275,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IRJuC0lHM9azI3pWd16u9teFxEQ3vwAkiNEO5SCBey0=
+			r7kd68CI9bV8s6vXYeNAn4AbUwMBln8u6wvPjStVKqk=
 			</data>
 		</dict>
 		<key>MonoBundle/file_XIB.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KsDx/dByNZdK7PqxI9ysr3RwtocH9zYzt45oTg7pYak=
+			v9PgIZyWu3vX6nFpaE/dUXJSqh6VSw1+bJBgk1pbaJA=
 			</data>
 		</dict>
 		<key>MonoBundle/libSystem.Globalization.Native.dylib</key>
@@ -1427,7 +1443,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KXv7++fPnFhsoTlx0379dx/tvN5AvBKzC1IAUTV+p0=
+			Ddb48ZQ84WdoCsaCmMoA1a4/PIez56sYzLh+l9sNHz0=
 			</data>
 		</dict>
 		<key>Resources/MainWindow.nib</key>
@@ -1435,6 +1451,13 @@
 			<key>hash2</key>
 			<data>
 			fzoTZjrmWEdWfnNHGIRmzfOyiRPL6mtdXg9lWfWm4fY=
+			</data>
+		</dict>
+		<key>Resources/PreferencesWindow.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wCi0LooYPpZxpc/4NC/cnOfzzlZ0DqDjdtuAFCOgffo=
 			</data>
 		</dict>
 		<key>Resources/SubViewTable.nib</key>
@@ -1456,6 +1479,27 @@
 			<key>hash2</key>
 			<data>
 			BlD27xbY0kU/AfkLME12imbSK1dAWycktD5+AVNGbss=
+			</data>
+		</dict>
+		<key>Resources/test4.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G6FE8W5JDOOOkyFMtMhcSlFnvY982LhY4lX2pKl7p4o=
+			</data>
+		</dict>
+		<key>Resources/test5.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GNeDdYva7hYWOGGCake3mQ57HedxfJSth3l7SeQXgN8=
+			</data>
+		</dict>
+		<key>Resources/trash.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X8SDxWqcnfJTQtLvoqF2qpgkpuepNEUOZM6JDHp716w=
 			</data>
 		</dict>
 	</dict>

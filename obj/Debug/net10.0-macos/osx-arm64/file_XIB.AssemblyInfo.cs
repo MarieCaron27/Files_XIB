@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("file_XIB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c30d91203faa08a269dbe193416bb3b2aca06bfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7745289ac0f40df44e0d6e721177bd7337d599c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("file_XIB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("file_XIB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

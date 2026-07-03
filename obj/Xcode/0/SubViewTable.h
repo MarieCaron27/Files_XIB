@@ -10,9 +10,15 @@
 
 
 @interface SubViewTable : NSViewController {
+	NSTableColumn *_DetailsColumn;
+	NSTableColumn *_ProductColumn;
+	NSTableView *_ProductTableView;
 }
-@property (weak) IBOutlet NSTableView *ProductTableView;
-@property (weak) IBOutlet NSTableColumn *ProductColumn;
-@property (weak) IBOutlet NSTableColumn *DetailsColumn;
+
+@property (nonatomic, retain) IBOutlet NSTableColumn *DetailsColumn;
+
+@property (nonatomic, retain) IBOutlet NSTableColumn *ProductColumn;
+
+@property (nonatomic, retain) IBOutlet NSTableView *ProductTableView;
 
 @end

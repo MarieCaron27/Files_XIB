@@ -9,4 +9,8 @@
 
 @implementation SubViewTable
 
+@synthesize DetailsColumn = _DetailsColumn;
+@synthesize ProductColumn = _ProductColumn;
+@synthesize ProductTableView = _ProductTableView;
+
 @end
