@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="25084" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="25084"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindow">
+            <connections>
+                <outlet property="MyToolBar" destination="xV3-Ip-9mw" id="vUc-Yy-A7x"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <toolbar implicitIdentifier="09D11707-F4A3-4FD5-970E-AC5832E91C2B" autosavesConfiguration="NO" showsBaselineSeparator="NO" displayMode="iconAndLabel" sizeMode="regular" id="xV3-Ip-9mw">
+            <allowedToolbarItems>
+                <toolbarItem implicitItemIdentifier="A8EDB65A-606C-4B82-BC85-5828BB984449" label="Toolbar Item" paletteLabel="Toolbar Item" tag="-1" image="test3" bordered="YES" id="QS2-2j-jva">
+                    <size key="minSize" width="24" height="24"/>
+                    <size key="maxSize" width="24" height="24"/>
+                </toolbarItem>
+                <toolbarItem implicitItemIdentifier="38776035-DD15-4A54-AA12-F1DB3B61E604" label="Toolbar Item" paletteLabel="Toolbar Item" tag="-1" image="test4" bordered="YES" id="FXa-w3-fb9">
+                    <size key="minSize" width="24" height="24"/>
+                    <size key="maxSize" width="24" height="24"/>
+                </toolbarItem>
+                <toolbarItem implicitItemIdentifier="98FE002E-018C-4EA8-8FAE-B1027FAF1296" label="Toolbar Item" paletteLabel="Toolbar Item" tag="-1" image="test5" bordered="YES" id="tPC-hq-vMa">
+                    <size key="minSize" width="24" height="24"/>
+                    <size key="maxSize" width="24" height="24"/>
+                </toolbarItem>
+                <toolbarItem implicitItemIdentifier="260640EC-4A03-4318-B8FA-6FD317939EE0" label="Toolbar Item" paletteLabel="Toolbar Item" tag="-1" image="trash" bordered="YES" id="s14-cR-zRf">
+                    <size key="minSize" width="24" height="24"/>
+                    <size key="maxSize" width="24" height="24"/>
+                </toolbarItem>
+            </allowedToolbarItems>
+            <defaultToolbarItems>
+                <toolbarItem reference="QS2-2j-jva"/>
+                <toolbarItem reference="FXa-w3-fb9"/>
+                <toolbarItem reference="tPC-hq-vMa"/>
+                <toolbarItem reference="s14-cR-zRf"/>
+            </defaultToolbarItems>
+            <point key="canvasLocation" x="20" y="498"/>
+        </toolbar>
+    </objects>
+    <resources>
+        <image name="test3" width="360" height="369"/>
+        <image name="test4" width="342" height="346.5"/>
+        <image name="test5" width="369" height="495"/>
+        <image name="trash" width="225" height="225"/>
+    </resources>
+</document>
