@@ -7,91 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB678D000000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A3F6000000000000000000 /* Cocoa.framework */; };
-		27BC3AC00000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259E10F00000000000000000 /* Foundation.framework */; };
-		128E98800000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27035C800000000000000000 /* Assets.xcassets */; };
-		1F1E40800000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181044900000000000000000 /* Entitlements.plist */; };
-		189269400000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D25B3B00000000000000000 /* Info.plist */; };
-		653515000000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EDDC500000000000000000 /* Main.storyboard */; };
-		5CBF30000000000000000000 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342B90000000000000000000 /* MainMenu.xib */; };
-		1D5881500000000000000000 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C8C4000000000000000000 /* MainWindow.xib */; };
-		900EE4000000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 110860700000000000000000 /* AppDelegate.m */; };
-		194B64700000000000000000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A688400000000000000000 /* MainWindow.m */; };
-		DACA70000000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B11E1000000000000000000 /* ViewController.m */; };
+		389D0AD00000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8561C00000000000000000 /* Cocoa.framework */; };
+		29B070200000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3733F1800000000000000000 /* Foundation.framework */; };
+		30D37E000000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376F6E100000000000000000 /* Assets.xcassets */; };
+		32EADEE00000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A41D5E000000000000000000 /* Entitlements.plist */; };
+		1C5085400000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED4AF800000000000000000 /* Info.plist */; };
+		357A2BB00000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214B89600000000000000000 /* Main.storyboard */; };
+		2BA7D4A00000000000000000 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E67A1000000000000000000 /* MainWindow.xib */; };
+		101A4AA00000000000000000 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10ECA0000000000000000000 /* MainMenu.xib */; };
+		1851A0300000000000000000 /* SubViewTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADEA1C00000000000000000 /* SubViewTable.xib */; };
+		31D3AFC00000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 712DC0000000000000000000 /* AppDelegate.m */; };
+		3FA9BD000000000000000000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF7A800000000000000000 /* MainWindow.m */; };
+		24B4EF000000000000000000 /* SubViewTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A5C6900000000000000000 /* SubViewTable.m */; };
+		39D3FB900000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D87000000000000000000 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53A0EB000000000000000000 /* file_XIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "file_XIB.app"; path = "file_XIB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46A3F6000000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
-		259E10F00000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
-		27035C800000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
-		181044900000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
-		1D25B3B00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
-		38EDDC500000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
-		342B90000000000000000000 /* MainMenu.xib */ = {isa = PBXFileReference; name = "MainMenu.xib"; path = "MainMenu.xib"; sourceTree = "<group>"; };
-		81C8C4000000000000000000 /* MainWindow.xib */ = {isa = PBXFileReference; name = "MainWindow.xib"; path = "MainWindow.xib"; sourceTree = "<group>"; };
-		2F0A84600000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
-		110860700000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
-		275EA7C00000000000000000 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindow.h"; path = "MainWindow.h"; sourceTree = "<group>"; };
-		23A688400000000000000000 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindow.m"; path = "MainWindow.m"; sourceTree = "<group>"; };
-		2253E5C00000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
-		7B11E1000000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		C129C4000000000000000000 /* file_XIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "file_XIB.app"; path = "file_XIB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8561C00000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		3733F1800000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		376F6E100000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		A41D5E000000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		3ED4AF800000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		214B89600000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		8E67A1000000000000000000 /* MainWindow.xib */ = {isa = PBXFileReference; name = "MainWindow.xib"; path = "MainWindow.xib"; sourceTree = "<group>"; };
+		10ECA0000000000000000000 /* MainMenu.xib */ = {isa = PBXFileReference; name = "MainMenu.xib"; path = "MainMenu.xib"; sourceTree = "<group>"; };
+		1ADEA1C00000000000000000 /* SubViewTable.xib */ = {isa = PBXFileReference; name = "SubViewTable.xib"; path = "SubViewTable.xib"; sourceTree = "<group>"; };
+		2CA77E900000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		712DC0000000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		11E373800000000000000000 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindow.h"; path = "MainWindow.h"; sourceTree = "<group>"; };
+		23CF7A800000000000000000 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindow.m"; path = "MainWindow.m"; sourceTree = "<group>"; };
+		20FF0F800000000000000000 /* SubViewTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SubViewTable.h"; path = "SubViewTable.h"; sourceTree = "<group>"; };
+		14A5C6900000000000000000 /* SubViewTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SubViewTable.m"; path = "SubViewTable.m"; sourceTree = "<group>"; };
+		28F78BB00000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		873D87000000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34F314100000000000000000 /* Frameworks */ = {
+		30B3E9B00000000000000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB678D000000000000000000 /* Cocoa.framework in Frameworks */,
-				27BC3AC00000000000000000 /* Foundation.framework in Frameworks */,
+				389D0AD00000000000000000 /* Cocoa.framework in Frameworks */,
+				29B070200000000000000000 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C8BB4A00000000000000000 = {
+		365337800000000000000000 = {
 			isa = PBXGroup;
 			children = (
-				E95A20000000000000000000 /* file_XIB */,
-				8342B9000000000000000000 /* Frameworks */,
-				9D5889000000000000000000 /* Products */,
+				28ECF3B00000000000000000 /* file_XIB */,
+				305491500000000000000000 /* Frameworks */,
+				32F91BF00000000000000000 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9D5889000000000000000000 /* Products */ = {
+		32F91BF00000000000000000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53A0EB000000000000000000 /* file_XIB.app */,
+				C129C4000000000000000000 /* file_XIB.app */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
 		};
-		8342B9000000000000000000 /* Frameworks */ = {
+		305491500000000000000000 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46A3F6000000000000000000 /* Cocoa.framework */,
-				259E10F00000000000000000 /* Foundation.framework */,
+				3D8561C00000000000000000 /* Cocoa.framework */,
+				3733F1800000000000000000 /* Foundation.framework */,
 			);
 			name = "Frameworks";
 			sourceTree = "<group>";
 		};
-		E95A20000000000000000000 /* file_XIB */ = {
+		28ECF3B00000000000000000 /* file_XIB */ = {
 			isa = PBXGroup;
 			children = (
-				2F0A84600000000000000000 /* AppDelegate.h */,
-				110860700000000000000000 /* AppDelegate.m */,
-				27035C800000000000000000 /* Assets.xcassets */,
-				181044900000000000000000 /* Entitlements.plist */,
-				1D25B3B00000000000000000 /* Info.plist */,
-				38EDDC500000000000000000 /* Main.storyboard */,
-				342B90000000000000000000 /* MainMenu.xib */,
-				275EA7C00000000000000000 /* MainWindow.h */,
-				23A688400000000000000000 /* MainWindow.m */,
-				81C8C4000000000000000000 /* MainWindow.xib */,
-				2253E5C00000000000000000 /* ViewController.h */,
-				7B11E1000000000000000000 /* ViewController.m */,
+				2CA77E900000000000000000 /* AppDelegate.h */,
+				712DC0000000000000000000 /* AppDelegate.m */,
+				376F6E100000000000000000 /* Assets.xcassets */,
+				A41D5E000000000000000000 /* Entitlements.plist */,
+				3ED4AF800000000000000000 /* Info.plist */,
+				214B89600000000000000000 /* Main.storyboard */,
+				10ECA0000000000000000000 /* MainMenu.xib */,
+				11E373800000000000000000 /* MainWindow.h */,
+				23CF7A800000000000000000 /* MainWindow.m */,
+				8E67A1000000000000000000 /* MainWindow.xib */,
+				20FF0F800000000000000000 /* SubViewTable.h */,
+				14A5C6900000000000000000 /* SubViewTable.m */,
+				1ADEA1C00000000000000000 /* SubViewTable.xib */,
+				28F78BB00000000000000000 /* ViewController.h */,
+				873D87000000000000000000 /* ViewController.m */,
 			);
 			name = "file_XIB";
 			sourceTree = "<group>";
@@ -99,13 +107,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1881CD100000000000000000 /* file_XIB */ = {
+		AC1FBA000000000000000000 /* file_XIB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C9035B00000000000000000 /* Build configuration list for PBXNativeTarget "file_XIB" */;
+			buildConfigurationList = 20D1D9000000000000000000 /* Build configuration list for PBXNativeTarget "file_XIB" */;
 			buildPhases = (
-				111E39000000000000000000 /* Sources */,
-				34F314100000000000000000 /* Frameworks */,
-				9A1002000000000000000000 /* Resources */,
+				2760A1000000000000000000 /* Sources */,
+				30B3E9B00000000000000000 /* Frameworks */,
+				2265A9500000000000000000 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,65 +121,67 @@
 			);
 			name = "file_XIB";
 			productName = "file_XIB";
-			productReference = 53A0EB000000000000000000 /* file_XIB.app */;
+			productReference = C129C4000000000000000000 /* file_XIB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		16A901900000000000000000 /* Project object */ = {
+		3592F3E00000000000000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = BF10E6000000000000000000 /* Build configuration list for PBXProject "file_XIB" */;
+			buildConfigurationList = 222A93600000000000000000 /* Build configuration list for PBXProject "file_XIB" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1C8BB4A00000000000000000;
-			productRefGroup = 9D5889000000000000000000 /* Products */;
+			mainGroup = 365337800000000000000000;
+			productRefGroup = 32F91BF00000000000000000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1881CD100000000000000000 /* file_XIB */,
+				AC1FBA000000000000000000 /* file_XIB */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A1002000000000000000000 /* Resources */ = {
+		2265A9500000000000000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				128E98800000000000000000 /* Assets.xcassets in Resources */,
-				1F1E40800000000000000000 /* Entitlements.plist in Resources */,
-				189269400000000000000000 /* Info.plist in Resources */,
-				653515000000000000000000 /* Main.storyboard in Resources */,
-				5CBF30000000000000000000 /* MainMenu.xib in Resources */,
-				1D5881500000000000000000 /* MainWindow.xib in Resources */,
+				30D37E000000000000000000 /* Assets.xcassets in Resources */,
+				32EADEE00000000000000000 /* Entitlements.plist in Resources */,
+				1C5085400000000000000000 /* Info.plist in Resources */,
+				357A2BB00000000000000000 /* Main.storyboard in Resources */,
+				2BA7D4A00000000000000000 /* MainWindow.xib in Resources */,
+				101A4AA00000000000000000 /* MainMenu.xib in Resources */,
+				1851A0300000000000000000 /* SubViewTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		111E39000000000000000000 /* Sources */ = {
+		2760A1000000000000000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900EE4000000000000000000 /* AppDelegate.m in Sources */,
-				194B64700000000000000000 /* MainWindow.m in Sources */,
-				DACA70000000000000000000 /* ViewController.m in Sources */,
+				31D3AFC00000000000000000 /* AppDelegate.m in Sources */,
+				3FA9BD000000000000000000 /* MainWindow.m in Sources */,
+				24B4EF000000000000000000 /* SubViewTable.m in Sources */,
+				39D3FB900000000000000000 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2B7981A00000000000000000 /* Debug */ = {
+		337F2ED00000000000000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		7458EE000000000000000000 /* Release */ = {
+		F78A5D000000000000000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +287,7 @@
 			};
 			name = Release;
 		};
-		172063000000000000000000 /* Debug */ = {
+		B3DD45000000000000000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
@@ -292,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		D02383000000000000000000 /* Release */ = {
+		252C76F00000000000000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
@@ -310,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF10E6000000000000000000 /* Build configuration list for PBXProject "file_XIB" */ = {
+		222A93600000000000000000 /* Build configuration list for PBXProject "file_XIB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B7981A00000000000000000 /* Debug */,
-				7458EE000000000000000000 /* Release */,
+				337F2ED00000000000000000 /* Debug */,
+				F78A5D000000000000000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		1C9035B00000000000000000 /* Build configuration list for PBXNativeTarget "file_XIB" */ = {
+		20D1D9000000000000000000 /* Build configuration list for PBXNativeTarget "file_XIB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				172063000000000000000000 /* Debug */,
-				D02383000000000000000000 /* Release */,
+				B3DD45000000000000000000 /* Debug */,
+				252C76F00000000000000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 16A901900000000000000000 /* Project object */;
+	rootObject = 3592F3E00000000000000000 /* Project object */;
 }

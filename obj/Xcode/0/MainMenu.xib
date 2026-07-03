@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="25084" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="25084"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -12,117 +11,13 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
-            <connections>
-                <outlet property="menuAPropos" destination="qy4-Vx-vb6" id="pCC-ID-RaJ"/>
-                <outlet property="menuAccesDossier" destination="esl-0l-eOT" id="Ot9-mX-iws"/>
-                <outlet property="menuAccesExterne" destination="31f-fA-jNe" id="5OK-o2-1Vv"/>
-                <outlet property="menuAccesExterneE" destination="5s6-Wa-Z8r" id="ML4-dx-rqh"/>
-                <outlet property="menuAccesHUB" destination="5oP-kS-nHf" id="y7R-ID-zDf"/>
-                <outlet property="menuAdministration" destination="hNe-5q-RIQ" id="v87-AX-2N4"/>
-                <outlet property="menuAffichage" destination="HyV-fh-RgO" id="CM5-gx-nVF"/>
-                <outlet property="menuAffichageAE" destination="eWW-0y-oUz" id="iik-iL-KAp"/>
-                <outlet property="menuAffichageAEE" destination="7l5-Tw-ghM" id="GUd-lp-uHh"/>
-                <outlet property="menuAffichageEcheance" destination="D8g-Ho-Js2" id="2VF-M4-OKJ"/>
-                <outlet property="menuAffichageMedinect" destination="HYX-2W-9CV" id="Sxv-k8-LMi"/>
-                <outlet property="menuAide" destination="wpr-3q-Mcd" id="D7k-Tv-5Pm"/>
-                <outlet property="menuAideE" destination="F2S-fz-NVQ" id="Maa-qp-wcg"/>
-                <outlet property="menuAideMedinect" destination="FKE-Sm-Kum" id="yZF-nP-JKP"/>
-                <outlet property="menuAjouterActes" destination="MmM-gT-NIZ" id="900-5e-rqv"/>
-                <outlet property="menuAjouterAllergie" destination="TlD-f7-NJk" id="TLq-Mn-9NS"/>
-                <outlet property="menuAjouterAttestation" destination="kGx-3l-h9c" id="5YE-vt-E8u"/>
-                <outlet property="menuAjouterBiometrie" destination="vsh-Wv-AZY" id="zyg-T4-NjK"/>
-                <outlet property="menuAjouterDiagnostic" destination="1cX-gu-5gN" id="pqP-8t-WJ0"/>
-                <outlet property="menuAjouterDocument" destination="aNu-3O-5n0" id="jFm-L8-MHy"/>
-                <outlet property="menuAjouterEcheance" destination="gLX-YP-i5y" id="uWm-6j-VPj"/>
-                <outlet property="menuAjouterMedicament" destination="Te4-qb-eNd" id="KGM-h7-VgO"/>
-                <outlet property="menuAjouterVaccin" destination="o5h-G7-I9C" id="w66-6c-9YA"/>
-                <outlet property="menuBackground" destination="MTP-IT-LAM" id="vqE-kU-OzW"/>
-                <outlet property="menuCalendrier" destination="jYD-wH-fTh" id="y5l-l5-hK3"/>
-                <outlet property="menuColler" destination="shO-Ik-SVM" id="v5N-Qq-UGK"/>
-                <outlet property="menuCopier" destination="0AX-h4-UGx" id="cko-9I-ACp"/>
-                <outlet property="menuCouper" destination="xcw-df-6UI" id="3pa-Aw-bOg"/>
-                <outlet property="menuDataBasePosologie" destination="RtG-h8-55X" id="2va-Ou-XSh"/>
-                <outlet property="menuDeconnexionUser" destination="RnF-cn-qQP" id="QWw-rr-bPp"/>
-                <outlet property="menuDossierGlobal" destination="aom-2h-mqC" id="FqL-aW-jkh"/>
-                <outlet property="menuDossierPatient" destination="snW-S8-Cw5" id="zxI-PA-pDz"/>
-                <outlet property="menuDossierPatientE" destination="NWx-qo-T9O" id="TdJ-iI-9UG"/>
-                <outlet property="menuEBMPracticeNET" destination="CBx-SN-Mxz" id="nid-PC-qJG"/>
-                <outlet property="menuEnvoyerRappel" destination="WKM-e9-YNi" id="gXK-3D-MiR"/>
-                <outlet property="menuExportPMF" destination="7OY-KA-Uwh" id="LgE-I6-z90"/>
-                <outlet property="menuExportSMF" destination="7wr-N3-KZs" id="8GN-dG-UjL"/>
-                <outlet property="menuExportSumher" destination="Xhw-Gl-p3s" id="fWn-In-JWc"/>
-                <outlet property="menuExportTotal" destination="Zbw-UD-69P" id="10Y-1R-O7Q"/>
-                <outlet property="menuExportTotalE" destination="7Rp-mj-Nic" id="1JF-4X-Wd6"/>
-                <outlet property="menuExporterHUB" destination="fct-3R-MC7" id="sqJ-hf-gaf"/>
-                <outlet property="menuFenetre" destination="aUF-d1-5bR" id="pLO-RR-YUk"/>
-                <outlet property="menuFenetreE" destination="Td7-aD-5lo" id="2Hu-Vz-yzj"/>
-                <outlet property="menuFermer" destination="1Be-uF-zmq" id="ZTK-J3-RgJ"/>
-                <outlet property="menuFusion" destination="5n5-pA-vg3" id="SF5-CA-lKy"/>
-                <outlet property="menuGeneral" destination="AYu-sK-qS6" id="SQQ-aI-K5N"/>
-                <outlet property="menuHistoriqueContact" destination="xzG-Pb-eRw" id="LdV-iX-pBR"/>
-                <outlet property="menuHistoriquePatient" destination="hVO-5R-7sM" id="xhw-CP-v5z"/>
-                <outlet property="menuImportExport" destination="3q6-XQ-bPb" id="iqq-Dd-icE"/>
-                <outlet property="menuImportFichier" destination="ZPx-55-Bn6" id="cna-7r-Zv0"/>
-                <outlet property="menuImportTarimed" destination="KJp-hR-hze" id="3iG-bO-H0Y"/>
-                <outlet property="menuImporterLaboratoire" destination="v0h-ze-PE0" id="ETv-ee-D8l"/>
-                <outlet property="menuImprimerRappel" destination="eps-PY-RVL" id="WJc-cE-IWn"/>
-                <outlet property="menuInfoUser" destination="uRi-HG-r3U" id="J7N-sO-2l4"/>
-                <outlet property="menuInformation" destination="9Ya-cs-PmI" id="IrD-bu-LZR"/>
-                <outlet property="menuJournalLOG" destination="xMJ-EB-EHt" id="VmU-M4-Mbw"/>
-                <outlet property="menuLaboratoire" destination="3ev-ya-EXS" id="n0g-R7-KiF"/>
-                <outlet property="menuLaboratoireE" destination="WMn-OG-n0y" id="TzE-Er-plj"/>
-                <outlet property="menuLangue" destination="tPE-q5-oDw" id="3Yf-zo-760"/>
-                <outlet property="menuLangueFrancais" destination="qKc-AD-k4P" id="pXi-X6-otg"/>
-                <outlet property="menuLangueNeerlandais" destination="wyh-F6-XTY" id="NqC-bg-JB0"/>
-                <outlet property="menuListeDMG" destination="Xdf-V7-POm" id="MIo-Pn-bSx"/>
-                <outlet property="menuMasquer" destination="sLg-eV-pOy" id="7Sp-SG-AeG"/>
-                <outlet property="menuMasquerAutres" destination="qIx-zX-N3D" id="BEC-6Q-ukU"/>
-                <outlet property="menuMedinect" destination="AYu-sK-qS6" id="Hqx-Vq-ro4"/>
-                <outlet property="menuNewUser" destination="pwr-Wo-J2z" id="B6c-et-da9"/>
-                <outlet property="menuNouveauContact" destination="onH-aM-T2g" id="oVk-rP-qj9"/>
-                <outlet property="menuNouveauMessage" destination="Mwd-js-kQy" id="Pn7-Pd-MLv"/>
-                <outlet property="menuNouveauRappel" destination="VWV-T5-6e2" id="gyH-XB-1GC"/>
-                <outlet property="menuPlacer" destination="OY7-WF-poV" id="P98-sI-5lK"/>
-                <outlet property="menuPreference" destination="eeW-Ah-AVy" id="59y-q6-UcR"/>
-                <outlet property="menuPrimeINAMI" destination="Fju-Hf-Odc" id="woC-mE-Lzr"/>
-                <outlet property="menuQuitter" destination="RNw-tT-gGd" id="NCZ-zb-GVl"/>
-                <outlet property="menuRamener" destination="LE2-aR-0XJ" id="b5T-BO-jQX"/>
-                <outlet property="menuRappel" destination="1UK-8n-QPP" id="APW-aj-Zqa"/>
-                <outlet property="menuReceptionLaboratoire" destination="2fj-pf-9OB" id="NGS-ih-BBp"/>
-                <outlet property="menuRechercheEID" destination="WhI-C8-1b9" id="Q6N-Hs-8nO"/>
-                <outlet property="menuRecherchePatient" destination="EKz-Yw-Myf" id="hWN-MG-H6L"/>
-                <outlet property="menuRoleGarde" destination="noP-mP-PNm" id="KrZ-Dy-bOL"/>
-                <outlet property="menuSelectALL" destination="teE-Zh-TZw" id="vxY-uY-QpK"/>
-                <outlet property="menuServiceEHealth" destination="wW1-Ej-nGZ" id="pUt-wG-sjV"/>
-                <outlet property="menuStatistique" destination="nZt-eK-Y01" id="oy6-TA-Qeu"/>
-                <outlet property="menuSupprimer" destination="1df-OK-l2C" id="zJy-Tm-GES"/>
-                <outlet property="menuSynchroUser" destination="raa-tr-fKs" id="yfz-2F-I4R"/>
-                <outlet property="menuTarification" destination="1Am-wf-ibj" id="BeR-yC-SLr"/>
-                <outlet property="menuTitreAccesExterne" destination="6Dq-BV-06e" id="ySA-mC-4VX"/>
-                <outlet property="menuTitreAffichage" destination="H8h-7b-M4v" id="9UG-Ka-uY5"/>
-                <outlet property="menuTitreDossierPatient" destination="DeN-kn-5xD" id="cVH-rA-9Ja"/>
-                <outlet property="menuTitreImportExport" destination="Z6D-uM-isx" id="n4A-R2-KGb"/>
-                <outlet property="menuTitreLaboratoire" destination="Qz9-Cr-7gY" id="X5z-6s-U7A"/>
-                <outlet property="menuTitreRappel" destination="Nke-hN-7TE" id="pLX-GF-1Tn"/>
-                <outlet property="menuTitreRappelE" destination="oDM-D7-Tx5" id="EZF-Ea-vRo"/>
-                <outlet property="menuTitreUtilisateur" destination="And-ao-JGF" id="OEK-F2-ZUC"/>
-                <outlet property="menuToutAfficher" destination="wSB-bS-ykf" id="HS4-bP-EGI"/>
-                <outlet property="menuTracabilite" destination="HOd-l8-qha" id="LRU-Kp-EaN"/>
-                <outlet property="menuTransfertPatient" destination="Qcs-GF-vJR" id="39K-ib-Qn8"/>
-                <outlet property="menuUtilisateur" destination="oIR-El-Z1U" id="agO-g5-toG"/>
-                <outlet property="menuUtilitaire" destination="RvS-vH-0lA" id="gcJ-j8-DWv"/>
-                <outlet property="menuUtilitaireE" destination="oS9-uq-Sv2" id="5yr-xx-pJh"/>
-                <outlet property="menuVisualiserHUB" destination="CGh-nS-83R" id="mbx-ag-HkC"/>
-                <outlet property="menuZoom" destination="R4o-n2-Eq4" id="EJA-mC-d5s"/>
-            </connections>
-        </customObject>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Medinect" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="Medinect" id="WBj-r8-7NC">
+                <menuItem title="NewApplication" id="WBj-r8-7NC" userLabel="NewApplication">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Medinect" systemMenu="apple" id="OdA-1U-TUb">
+                    <menu key="submenu" title="NewApplication" systemMenu="apple" id="OdA-1U-TUb">
                         <items>
                             <menuItem title="A propos de Medinect" id="qy4-Vx-vb6">
                                 <modifierMask key="keyEquivalentModifierMask"/>
@@ -137,38 +32,22 @@
                                     <items>
                                         <menuItem title="Français" state="on" id="qKc-AD-k4P">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuFrancaisPressed:" target="Voe-Tx-rLC" id="AG2-8L-cYc"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Néerlandais" id="wyh-F6-XTY">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuNeerlandaisPressed:" target="Voe-Tx-rLC" id="q1P-nX-Jh6"/>
-                                            </connections>
                                         </menuItem>
                                     </items>
                                 </menu>
                             </menuItem>
                             <menuItem title="Préférences…" enabled="NO" id="eeW-Ah-AVy">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuPreferencePressed:" target="Voe-Tx-rLC" id="G7a-YY-xMI"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="zJb-Gn-Yha"/>
                             <menuItem title="Administration" id="hNe-5q-RIQ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuAdministrationPressed:" target="Voe-Tx-rLC" id="6Gc-J0-8Fu"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="jRe-zo-FMu"/>
-                            <menuItem title="Gestionnaire tâches arrière-plan" keyEquivalent="g" id="MTP-IT-LAM">
-                                <connections>
-                                    <action selector="menuBackgroundPressed:" target="Voe-Tx-rLC" id="taw-p8-BQd"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Gestionnaire tâches arrière-plan" keyEquivalent="g" id="MTP-IT-LAM"/>
                             <menuItem isSeparatorItem="YES" id="LvG-QL-5eF"/>
                             <menuItem title="Masquer Medinect" id="sLg-eV-pOy">
                                 <modifierMask key="keyEquivalentModifierMask"/>
@@ -182,11 +61,7 @@
                                     <action selector="hideOtherApplications:" target="-1" id="KfV-N6-agp"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Fermer Fenêtre" hidden="YES" enabled="NO" keyEquivalent="w" id="1Be-uF-zmq">
-                                <connections>
-                                    <action selector="menuFermerFenetrePressed:" target="Voe-Tx-rLC" id="Fyc-kR-ays"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Fermer Fenêtre" hidden="YES" enabled="NO" keyEquivalent="w" id="1Be-uF-zmq"/>
                             <menuItem title="Tout afficher" id="wSB-bS-ykf">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
@@ -194,11 +69,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1MT-QP-QZ5"/>
-                            <menuItem title="Quitter Medinect" keyEquivalent="q" id="RNw-tT-gGd">
-                                <connections>
-                                    <action selector="menuQuitterPressed:" target="Voe-Tx-rLC" id="hNH-7k-eKz"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Quitter Medinect" keyEquivalent="q" id="RNw-tT-gGd"/>
                         </items>
                     </menu>
                 </menuItem>
@@ -208,35 +79,19 @@
                         <items>
                             <menuItem title="Nouvel Utilisateur" id="pwr-Wo-J2z">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuNewUserPressed:" target="Voe-Tx-rLC" id="h0b-CD-qDu"/>
-                                </connections>
                             </menuItem>
                             <menuItem title="Information Utilisateur" id="uRi-HG-r3U">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuInformationUserPressed:" target="Voe-Tx-rLC" id="anz-OG-Nvf"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="7f0-y1-hPD"/>
                             <menuItem title="Synchronisation Multi-utilisateur" id="raa-tr-fKs">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuSynchronisationUserPressed:" target="Voe-Tx-rLC" id="G8A-a2-nph"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="0CT-R4-wMm"/>
-                            <menuItem title="Connexion Service e-Health" keyEquivalent="@" id="wW1-Ej-nGZ">
-                                <connections>
-                                    <action selector="menuConnexionServiceEHealthPressed:" target="Voe-Tx-rLC" id="t5O-9p-l1E"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Connexion Service e-Health" keyEquivalent="@" id="wW1-Ej-nGZ"/>
                             <menuItem isSeparatorItem="YES" id="E9x-aO-mBa"/>
                             <menuItem title="Déconnexion Utilisateur" id="RnF-cn-qQP">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuDeconnexionUserPressed:" target="Voe-Tx-rLC" id="uPb-dI-CNs"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -245,36 +100,12 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Affichage" id="HyV-fh-RgO">
                         <items>
-                            <menuItem title="Dossiers Patients" keyEquivalent="d" id="snW-S8-Cw5">
-                                <connections>
-                                    <action selector="menuDossierPressed:" target="Voe-Tx-rLC" id="o0I-ew-1Sz"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Rappel" keyEquivalent="a" id="1UK-8n-QPP">
-                                <connections>
-                                    <action selector="menuRappelPressed:" target="Voe-Tx-rLC" id="A11-vu-wrT"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Accès Externe" keyEquivalent="n" id="31f-fA-jNe">
-                                <connections>
-                                    <action selector="menuAccesExternePressed:" target="Voe-Tx-rLC" id="U87-Jb-w8u"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Laboratoire" keyEquivalent="l" id="3ev-ya-EXS">
-                                <connections>
-                                    <action selector="menuLaboratoirePressed:" target="Voe-Tx-rLC" id="hqt-nQ-6U7"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Rôle de Garde" keyEquivalent="t" id="noP-mP-PNm">
-                                <connections>
-                                    <action selector="menuRoledeGardePressed:" target="Voe-Tx-rLC" id="dhJ-tg-iG4"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Information" keyEquivalent="i" id="9Ya-cs-PmI">
-                                <connections>
-                                    <action selector="menuInformationPressed:" target="Voe-Tx-rLC" id="Qpb-qn-DiA"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Dossiers Patients" keyEquivalent="d" id="snW-S8-Cw5"/>
+                            <menuItem title="Rappel" keyEquivalent="a" id="1UK-8n-QPP"/>
+                            <menuItem title="Accès Externe" keyEquivalent="n" id="31f-fA-jNe"/>
+                            <menuItem title="Laboratoire" keyEquivalent="l" id="3ev-ya-EXS"/>
+                            <menuItem title="Rôle de Garde" keyEquivalent="t" id="noP-mP-PNm"/>
+                            <menuItem title="Information" keyEquivalent="i" id="9Ya-cs-PmI"/>
                         </items>
                     </menu>
                 </menuItem>
@@ -282,16 +113,8 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Dossiers Patient" id="NWx-qo-T9O">
                         <items>
-                            <menuItem title="Recherche Patient" keyEquivalent="r" id="EKz-Yw-Myf">
-                                <connections>
-                                    <action selector="menuRecherchePatientPressed:" target="Voe-Tx-rLC" id="d4V-b6-L9j"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Recherche via eID" keyEquivalent="e" id="WhI-C8-1b9">
-                                <connections>
-                                    <action selector="menuRechercheEIDPressed:" target="Voe-Tx-rLC" id="xdd-h8-ll3"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Recherche Patient" keyEquivalent="r" id="EKz-Yw-Myf"/>
+                            <menuItem title="Recherche via eID" keyEquivalent="e" id="WhI-C8-1b9"/>
                             <menuItem isSeparatorItem="YES" id="w0v-S9-taw"/>
                             <menuItem title="Coller" keyEquivalent="v" allowsKeyEquivalentWhenHidden="YES" id="shO-Ik-SVM">
                                 <connections>
@@ -324,130 +147,68 @@
                             <menuItem title="Dossier Global" id="aom-2h-mqC">
                                 <menu key="submenu" title="Accès Direct HUB" id="dgi-Qu-bRl">
                                     <items>
-                                        <menuItem title="Accès au dossier" keyEquivalent="g" id="esl-0l-eOT">
-                                            <connections>
-                                                <action selector="menuDossierGlobalPressed:" target="Voe-Tx-rLC" id="Guo-tr-awT"/>
-                                            </connections>
-                                        </menuItem>
+                                        <menuItem title="Accès au dossier" keyEquivalent="g" id="esl-0l-eOT"/>
                                         <menuItem isSeparatorItem="YES" id="ypZ-Al-HHR"/>
                                         <menuItem title="Ajouter Diagnostic" keyEquivalent="t" id="1cX-gu-5gN">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterDiagnosticPressed:" target="Voe-Tx-rLC" id="Cbz-MS-yqk"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Allergie / Intolerance" keyEquivalent="i" id="TlD-f7-NJk">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterAllergiePressed:" target="Voe-Tx-rLC" id="gei-ES-DtS"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Biométrie" keyEquivalent="b" id="vsh-Wv-AZY">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterBiometriePressed:" target="Voe-Tx-rLC" id="gnP-UJ-Xo7"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Médicament" keyEquivalent="m" id="Te4-qb-eNd">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterMedicamentPressed:" target="Voe-Tx-rLC" id="Rjr-i4-jcm"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Vaccin" keyEquivalent="v" id="o5h-G7-I9C">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterVaccinPressed:" target="Voe-Tx-rLC" id="nSH-wY-5cV"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Document" keyEquivalent="d" id="aNu-3O-5n0">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterDocumentPressed:" target="Voe-Tx-rLC" id="g02-6z-Aqt"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Attestation" keyEquivalent="a" id="kGx-3l-h9c">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterAttestationPressed:" target="Voe-Tx-rLC" id="zo0-o7-0Ne"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Actes" keyEquivalent="c" id="MmM-gT-NIZ">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterActesPressed:" target="Voe-Tx-rLC" id="2Fb-yO-enK"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Ajouter Echéance" keyEquivalent="e" id="gLX-YP-i5y">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="menuAjouterEcheancePressed:" target="Voe-Tx-rLC" id="oo1-FJ-u0B"/>
-                                            </connections>
                                         </menuItem>
                                     </items>
                                 </menu>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="QwT-O1-7On"/>
-                            <menuItem title="Nouveau Contact/Prestation" keyEquivalent="p" id="onH-aM-T2g">
-                                <connections>
-                                    <action selector="menuNouveauContactPressed:" target="Voe-Tx-rLC" id="i97-Dg-UVE"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Nouveau Contact/Prestation" keyEquivalent="p" id="onH-aM-T2g"/>
                             <menuItem title="Historique Contact/Prestation" id="xzG-Pb-eRw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuHistoriqueContactPressed:" target="Voe-Tx-rLC" id="Tgz-2S-KhH"/>
-                                </connections>
                             </menuItem>
                             <menuItem title="Accès Direct HUB" id="5oP-kS-nHf">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Accès Direct HUB" id="xWt-ZM-np1">
                                     <items>
-                                        <menuItem title="Exporter sur le HUB" keyEquivalent="s" id="fct-3R-MC7">
-                                            <connections>
-                                                <action selector="menuExporterHUBPressed:" target="Voe-Tx-rLC" id="VeW-YC-crf"/>
-                                            </connections>
-                                        </menuItem>
+                                        <menuItem title="Exporter sur le HUB" keyEquivalent="s" id="fct-3R-MC7"/>
                                         <menuItem isSeparatorItem="YES" id="3Ou-ZC-iqq"/>
-                                        <menuItem title="Visualiser sur le HUB" keyEquivalent="V" id="CGh-nS-83R">
-                                            <connections>
-                                                <action selector="menuVisualiserHUBPressed:" target="Voe-Tx-rLC" id="cfV-iq-vnU"/>
-                                            </connections>
-                                        </menuItem>
+                                        <menuItem title="Visualiser sur le HUB" keyEquivalent="V" id="CGh-nS-83R"/>
                                     </items>
                                 </menu>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="WcU-p3-0Lw"/>
-                            <menuItem title="Historique Patient" keyEquivalent="h" id="hVO-5R-7sM">
-                                <connections>
-                                    <action selector="menuHistoriquePatientPressed:" target="Voe-Tx-rLC" id="abG-uj-Xak"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Historique Patient" keyEquivalent="h" id="hVO-5R-7sM"/>
                             <menuItem isSeparatorItem="YES" id="nAi-Rl-hdG"/>
                             <menuItem title="Database Posologie" id="RtG-h8-55X">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuDatabasePosologiePressed:" target="Voe-Tx-rLC" id="ovc-5q-IYT"/>
-                                </connections>
                             </menuItem>
                             <menuItem title="EBM PracticeNET" id="CBx-SN-Mxz">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuEBMPracticeNETPressed:" target="Voe-Tx-rLC" id="5yy-Cy-gVU"/>
-                                </connections>
                             </menuItem>
                             <menuItem title="CBIP" id="TNu-6m-u37">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuCBIPPressed:" target="Voe-Tx-rLC" id="Qhn-sa-0ce"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="Yvd-5l-qp5"/>
                             <menuItem title="Liste DMG" id="Xdf-V7-POm">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuListeDMGPressed:" target="Voe-Tx-rLC" id="wWR-kz-vA2"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -458,23 +219,14 @@
                         <items>
                             <menuItem title="Nouveau Rappel" id="VWV-T5-6e2">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuNouveauRappelPressed:" target="Voe-Tx-rLC" id="mkV-Xq-xpq"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="1i4-UI-AgI"/>
                             <menuItem title="Imprimer" id="eps-PY-RVL">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuImprimerRappelPressed:" target="Voe-Tx-rLC" id="oT0-Nk-Pgh"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="2j4-0d-KFb"/>
                             <menuItem title="Envoyer" id="WKM-e9-YNi">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuEnvoyerRappelPressed:" target="Voe-Tx-rLC" id="SrI-cy-3ce"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -490,15 +242,9 @@
                                         <menuItem isSeparatorItem="YES" id="IZL-d8-kMC"/>
                                         <menuItem title="Boite Réception" state="on" id="HYX-2W-9CV">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuAffichageMedinectPressed:" target="Voe-Tx-rLC" id="Nhq-IN-EY6"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Message Envoyés" id="D8g-Ho-Js2">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuAffichageEcheancePressed:" target="Voe-Tx-rLC" id="sF5-ea-IsG"/>
-                                            </connections>
                                         </menuItem>
                                     </items>
                                 </menu>
@@ -528,16 +274,10 @@
                             <menuItem isSeparatorItem="YES" id="3cn-SH-iFG"/>
                             <menuItem title="Nouveau Message" id="Mwd-js-kQy">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuNouveauMessagePressed:" target="Voe-Tx-rLC" id="jWl-4b-x0g"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="XGk-fG-jyX"/>
                             <menuItem title="Transfert Patient" id="Qcs-GF-vJR">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuTransfertPatientPressed:" target="Voe-Tx-rLC" id="WxC-fG-PtE"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -548,16 +288,10 @@
                         <items>
                             <menuItem title="Réception Fichiers" id="2fj-pf-9OB">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuReceptionLaboratoirePressed:" target="Voe-Tx-rLC" id="r1Q-uT-LDd"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="RRV-uQ-71x"/>
                             <menuItem title="Importer le ou les fichiers" id="v0h-ze-PE0">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuImporterToutPressed:" target="Voe-Tx-rLC" id="2cA-Nk-OWu"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -568,15 +302,9 @@
                         <items>
                             <menuItem title="Fichiers Patient" id="ZPx-55-Bn6">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuImportFichierPressed:" target="Voe-Tx-rLC" id="1q2-0J-MdZ"/>
-                                </connections>
                             </menuItem>
                             <menuItem title="Tarimed" id="KJp-hR-hze">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuImportTarimedPressed:" target="Voe-Tx-rLC" id="xtc-xG-lhr"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="SjJ-q3-nds"/>
                             <menuItem title="Export Total" id="7Rp-mj-Nic">
@@ -585,27 +313,15 @@
                                     <items>
                                         <menuItem title="Sumehr" id="Xhw-Gl-p3s">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuExportSumherPressed:" target="Voe-Tx-rLC" id="HAp-72-nVy"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Patient Migration Format" id="7OY-KA-Uwh">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuExportPMFPressed:" target="Voe-Tx-rLC" id="6Ck-PC-cZS"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Software Migration Format" id="7wr-N3-KZs">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuExportSMFPressed:" target="Voe-Tx-rLC" id="mh3-9z-bXJ"/>
-                                            </connections>
                                         </menuItem>
                                         <menuItem title="Medinect" id="RWc-id-9n3">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="menuExportMedinectPressed:" target="Voe-Tx-rLC" id="hkI-7J-hg9"/>
-                                            </connections>
                                         </menuItem>
                                     </items>
                                 </menu>
@@ -613,9 +329,6 @@
                             <menuItem isSeparatorItem="YES" id="aQG-HD-DCr"/>
                             <menuItem title="Tarification" id="1Am-wf-ibj">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuTarificationPressed:" target="Voe-Tx-rLC" id="ohN-5e-sfF"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -626,36 +339,21 @@
                         <items>
                             <menuItem title="Traçabilité" id="HOd-l8-qha">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuTracabilitePressed:" target="Voe-Tx-rLC" id="DXg-WV-3fk"/>
-                                </connections>
                             </menuItem>
                             <menuItem title="Statistiques" id="nZt-eK-Y01">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuStatistiqueINAMIPressed:" target="Voe-Tx-rLC" id="cQb-8w-6jL"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="Cne-qI-Vj9"/>
                             <menuItem title="Fusion Générale" id="5n5-pA-vg3">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuFusionPressed:" target="Voe-Tx-rLC" id="O88-0i-lnl"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="T57-NM-JXl"/>
                             <menuItem title="Prime INAMI" id="Fju-Hf-Odc">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuPrimeINAMIPressed:" target="Voe-Tx-rLC" id="aMc-KZ-Ga7"/>
-                                </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="dsM-uR-All"/>
                             <menuItem title="Calendrier" id="jYD-wH-fTh">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuCalendrierPressed:" target="Voe-Tx-rLC" id="6w5-Hy-I0l"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>
@@ -689,17 +387,10 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Aide" systemMenu="help" id="F2S-fz-NVQ">
                         <items>
-                            <menuItem title="Aide Medinect" keyEquivalent="?" id="FKE-Sm-Kum">
-                                <connections>
-                                    <action selector="menuAideMedinectPressed:" target="Voe-Tx-rLC" id="LXh-jk-Q9D"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Aide Medinect" keyEquivalent="?" id="FKE-Sm-Kum"/>
                             <menuItem isSeparatorItem="YES" id="e72-9k-O6a"/>
                             <menuItem title="Journal de LOG" id="xMJ-EB-EHt">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="menuJournalLOGPressed:" target="Voe-Tx-rLC" id="oo2-qW-Zu7"/>
-                                </connections>
                             </menuItem>
                         </items>
                     </menu>

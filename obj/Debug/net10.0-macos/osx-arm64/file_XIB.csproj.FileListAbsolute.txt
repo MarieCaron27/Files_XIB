@@ -220,3 +220,4 @@
 /Users/marie/RiderProjects/file_XIB/file_XIB/obj/Debug/net10.0-macos/osx-arm64/file_XIB.pdb
 /Users/marie/RiderProjects/file_XIB/file_XIB/obj/Debug/net10.0-macos/osx-arm64/file_XIB.genruntimeconfig.cache
 /Users/marie/RiderProjects/file_XIB/file_XIB/obj/Debug/net10.0-macos/osx-arm64/ref/file_XIB.dll
+/Users/marie/RiderProjects/file_XIB/file_XIB/obj/Debug/net10.0-macos/osx-arm64/file_XIB.sourcelink.json

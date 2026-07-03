@@ -30,15 +30,23 @@
 		</data>
 		<key>Resources/MainMenu.nib</key>
 		<data>
-		HdLltGvgPiBGE01vnUFFSwpdYfM=
+		d0Hl8ptSVmQMhZvJjvVQQYpcH2I=
 		</data>
 		<key>Resources/MainWindow.nib</key>
 		<data>
-		gSBIh+mXBd1BrhtQtPjvfCq5awg=
+		5hlngMhXpvfdOjzY37c4Mv+x+/M=
+		</data>
+		<key>Resources/SubViewTable.nib</key>
+		<data>
+		rZCdS0sfVQ5tb+T8e+UQUZiaSzA=
 		</data>
 		<key>Resources/archived-expanded-entitlements.xcent</key>
 		<data>
 		vO/gVYVVkU1zHBaxd4xJ53/ga5k=
+		</data>
+		<key>Resources/test3.jpeg</key>
+		<data>
+		qTIDj+3Uftsi77dNvJL2hbnh8h8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1251,14 +1259,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oDWQdiXuW8qRO+vlAFRTiVMVyo59xd/qK5eZ+OQBAN8=
+			IRJuC0lHM9azI3pWd16u9teFxEQ3vwAkiNEO5SCBey0=
 			</data>
 		</dict>
 		<key>MonoBundle/file_XIB.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ytktovS/JKEl3ttyv2hk/7WKN8RelbEcZSyNgiI+UzA=
+			KsDx/dByNZdK7PqxI9ysr3RwtocH9zYzt45oTg7pYak=
 			</data>
 		</dict>
 		<key>MonoBundle/libSystem.Globalization.Native.dylib</key>
@@ -1419,14 +1427,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ddb48ZQ84WdoCsaCmMoA1a4/PIez56sYzLh+l9sNHz0=
+			8KXv7++fPnFhsoTlx0379dx/tvN5AvBKzC1IAUTV+p0=
 			</data>
 		</dict>
 		<key>Resources/MainWindow.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yzBSYUIZUmF0tl5YgdVpepeW5yKOFVIdqwvzJ17syzo=
+			fzoTZjrmWEdWfnNHGIRmzfOyiRPL6mtdXg9lWfWm4fY=
+			</data>
+		</dict>
+		<key>Resources/SubViewTable.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qeIwVA5ehCQpvt4VBiGyiMU4Ph3n+4FF2S4IREf/Obg=
 			</data>
 		</dict>
 		<key>Resources/archived-expanded-entitlements.xcent</key>
@@ -1434,6 +1449,13 @@
 			<key>hash2</key>
 			<data>
 			l3BKiWC0+szu9UOXoI+10KRWJHw2JzWSFaoqJ98iZWw=
+			</data>
+		</dict>
+		<key>Resources/test3.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BlD27xbY0kU/AfkLME12imbSK1dAWycktD5+AVNGbss=
 			</data>
 		</dict>
 	</dict>
